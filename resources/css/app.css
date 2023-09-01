@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import "bootstrap.min.css";
+@import "bootstrap-grid.min.css";
+@import "bootstrap-reboot.min.css";
+@import "bootstrap-utilities.min.css";
+@import "material-design-iconic-font.min.css";
+
