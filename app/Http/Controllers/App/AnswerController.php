@@ -11,6 +11,7 @@ class AnswerController extends Controller
     public function store(Models\Answer $answer, Models\Survey $survey)
     {
         $data = \request()->validate([
+            'answers.*.question_id'  => 'required',
             'answers.*.answer'  => 'required',
             'reply_amount'      => 'required',
         ]);
